@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C9F811625DE3061009F2CBD /* globalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F811525DE3061009F2CBD /* globalFunctions.swift */; };
+		0C9F811825DE3C91009F2CBD /* mainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F811725DE3C91009F2CBD /* mainPageViewController.swift */; };
 		0CBA23F825DD2AF20001D3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA23F725DD2AF20001D3C1 /* AppDelegate.swift */; };
 		0CBA23FA25DD2AF20001D3C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA23F925DD2AF20001D3C1 /* SceneDelegate.swift */; };
 		0CBA23FC25DD2AF20001D3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA23FB25DD2AF20001D3C1 /* ViewController.swift */; };
@@ -14,9 +16,14 @@
 		0CBA240225DD2AF20001D3C1 /* signUpAndLoginUsingCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA240025DD2AF20001D3C1 /* signUpAndLoginUsingCoreData.xcdatamodeld */; };
 		0CBA240425DD2B010001D3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA240325DD2B010001D3C1 /* Assets.xcassets */; };
 		0CBA240725DD2B010001D3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA240525DD2B010001D3C1 /* LaunchScreen.storyboard */; };
+		0CBA240F25DD308E0001D3C1 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA240E25DD308E0001D3C1 /* LoginPageViewController.swift */; };
+		0CBA241325DD3C240001D3C1 /* coreDatConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA241225DD3C240001D3C1 /* coreDatConnection.swift */; };
+		0CBA241525DD4C8F0001D3C1 /* resetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA241425DD4C8F0001D3C1 /* resetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9F811525DE3061009F2CBD /* globalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunctions.swift; sourceTree = "<group>"; };
+		0C9F811725DE3C91009F2CBD /* mainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageViewController.swift; sourceTree = "<group>"; };
 		0CBA23F425DD2AF20001D3C1 /* signUpAndLoginUsingCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = signUpAndLoginUsingCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBA23F725DD2AF20001D3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBA23F925DD2AF20001D3C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		0CBA240325DD2B010001D3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBA240625DD2B010001D3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBA240825DD2B010001D3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBA240E25DD308E0001D3C1 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		0CBA241225DD3C240001D3C1 /* coreDatConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDatConnection.swift; sourceTree = "<group>"; };
+		0CBA241425DD4C8F0001D3C1 /* resetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,12 @@
 			children = (
 				0CBA23F725DD2AF20001D3C1 /* AppDelegate.swift */,
 				0CBA23F925DD2AF20001D3C1 /* SceneDelegate.swift */,
+				0CBA241225DD3C240001D3C1 /* coreDatConnection.swift */,
+				0C9F811525DE3061009F2CBD /* globalFunctions.swift */,
 				0CBA23FB25DD2AF20001D3C1 /* ViewController.swift */,
+				0CBA240E25DD308E0001D3C1 /* LoginPageViewController.swift */,
+				0CBA241425DD4C8F0001D3C1 /* resetPasswordViewController.swift */,
+				0C9F811725DE3C91009F2CBD /* mainPageViewController.swift */,
 				0CBA23FD25DD2AF20001D3C1 /* Main.storyboard */,
 				0CBA240325DD2B010001D3C1 /* Assets.xcassets */,
 				0CBA240525DD2B010001D3C1 /* LaunchScreen.storyboard */,
@@ -143,8 +158,13 @@
 			files = (
 				0CBA23FC25DD2AF20001D3C1 /* ViewController.swift in Sources */,
 				0CBA23F825DD2AF20001D3C1 /* AppDelegate.swift in Sources */,
+				0CBA241325DD3C240001D3C1 /* coreDatConnection.swift in Sources */,
 				0CBA23FA25DD2AF20001D3C1 /* SceneDelegate.swift in Sources */,
+				0CBA240F25DD308E0001D3C1 /* LoginPageViewController.swift in Sources */,
+				0C9F811625DE3061009F2CBD /* globalFunctions.swift in Sources */,
 				0CBA240225DD2AF20001D3C1 /* signUpAndLoginUsingCoreData.xcdatamodeld in Sources */,
+				0CBA241525DD4C8F0001D3C1 /* resetPasswordViewController.swift in Sources */,
+				0C9F811825DE3C91009F2CBD /* mainPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
